@@ -1,6 +1,6 @@
 # README
 
-This repo contains a REST API that acts as an aggregator for both bitbucket and github accounts. It provides an interface to create an API user, and attach a bitbucket/github user to API users.
+This repo contains a REST API that acts as an aggregator for both bitbucket and github accounts. It provides an interface to create an API user, and attach bitbucket/github users to an API user.
 
 ## Environment Setup
 
