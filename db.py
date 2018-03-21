@@ -5,6 +5,9 @@ BITBUCKET_PROFILES = {}
 GITHUB_PROFILES = {}
 
 
+# not capitalizing these classes is kind of a smell,
+# but db.<thing>.<method> felt better than db.<Thing>.method
+# easy fix if it were to come up in code review :)
 class user:
     @staticmethod
     def create(username):
